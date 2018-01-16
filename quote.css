@@ -2,13 +2,14 @@ body {
   background-color: #869299;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
   font-size: 35px;
 }
 
 #quotes {
-  font-size: 30px;
+  font-size: 35px;
+  text-align: center;
 }
 
 #quoteButton {
