@@ -2,15 +2,26 @@
 <head>
   <title>Random Quote Machine!</title>
   <link rel="stylesheet" href="quote.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 </head>
 
   <body>
-    <h1>Quote Generator</h1>
-      <div id="quotes">
-          <!-- Quotes will display here -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9 quoteback">
+          <div id="quotes">
+              <!-- Quotes will display here -->
+          </div>
+        </div>
+        <div class="col-sm-3">
+            <button id="quoteButton" class="btn btn-primary" onclick="nextQuote()">Next Quote</button>
+            <a href="https://twitter.com/share">
+              <button id="quoteButton" class="btn btn-primary" onclick="nextQuote()">Tweet This</button>
+            </a>
+        </div>
       </div>
-    <button id="quoteButton" onclick="nextQuote()">Next Quote</button>
-
+    </div>
     <script src="quotes.js"></script>
   </body>
 
