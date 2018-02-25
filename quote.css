@@ -63,6 +63,10 @@ footer {
 }
 
 .foot a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
 }
