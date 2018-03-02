@@ -9,6 +9,9 @@ var quotes = [
   "You can only find truth with logic if you have already found truth without it. -Gilbert Keith Chesterton",
   "A people that values its privileges above its principles soon loses both. -Dwight D. Eisenhower",
   "Sleep is an excellent way of listening to an opera. -James Stephens"
+  "Age is something that doesn't matter, unless you are cheese.  -Luis Bunuel",
+  "Weather forcast for tonight, dark.  -George Carlin",
+  "From there to here, and here to there, funny things are everywhere.  -Dr. Seuss"
 ];
 
 function nextQuote() {
